@@ -8,24 +8,25 @@
 </head>
 <body>
     <div class="board">
-     <div class="coloumn">
+     <div class="coloumn" id="todo">
         <h2>Todo</h2>
-        <div class="tasks"></div>
-        <input type="text" placeholder="insert value" class="task-input">
-        <button class="add-task">Add Task</button>
+        <div class="tasks" id="todo-task"></div>
+        <input type="text" placeholder="insert value" class="task-input" id="todo-input">
+        <button class="add-task" onclick="addTask('todo')">Add Task</button>
      </div>
-     <div class="coloumn">
+     <div class="coloumn" id="doing">
         <h2>Doing</h2>
-        <div class="tasks"></div>
-        <input type="text" placeholder="insert value" class="task-input">
-        <button class="add-task">Add Doing</button>
+        <div class="tasks" id="doing-task"></div>
+        <input type="text" placeholder="insert value" class="task-input" id="doing-input">
+        <button class="add-task" onclick="addTask('doing')">Add Doing</button>
      </div>
-     <div class="coloumn">
+     <div class="coloumn" id="done">
         <h2>Done</h2>
-        <div class="tasks"></div>
-        <input type="text" placeholder="insert value" class="task-input">
-        <button class="add-task">Add Done Task</button>
+        <div class="tasks" id="done-task"></div>
+        <input type="text" placeholder="insert value" class="task-input" id="done-input">
+        <button class="add-task" onclick="addTask('done')">Add Done Task</button>
      </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>

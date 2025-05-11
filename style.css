@@ -50,3 +50,16 @@ body{
     background-color: rgb(15, 97, 132);
     cursor: pointer;
 }
+
+.card{
+    background-color: rgb(134, 194, 174);
+    margin-bottom: 10px;
+    padding: 6px 4px;
+    cursor : grab;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    border-radius: 4px;
+}
+.card:hover{
+    transform: scale(1.05);
+}
