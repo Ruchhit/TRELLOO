@@ -67,3 +67,17 @@ body{
 .draggable{
     display: hidden;
 }
+.contextMenu{
+    background-color: aliceblue;
+    width: 80px;
+    padding: 6px 2px;
+    border-radius: 4px;
+}
+
+.contextMenu li{
+    list-style: none;
+    cursor: pointer;
+}
+.contextMenu li:hover{
+    background-color: rgb(222, 225, 227);
+}
