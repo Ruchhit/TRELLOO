@@ -15,5 +15,5 @@ function createElement(text){
   const newDiv = document.createElement('div')
   newDiv.classList.add('card')
   newDiv.textContent=text;
-  return newDiv
+  return newDiv;
 }
